@@ -1,3 +1,4 @@
+--V2.0
 --v1.0
 
 
@@ -10,7 +11,9 @@ SELECT --T.ITEM_ID,
        T.ITEM_UM2 第二单位,
        T.ALLOC_CLASS      分配分类集,--这个有设置为“AUTOFIFO”才能生产批自动分配配料消耗
        T.GL_CLASS         GL分类集,
-			 GL.STRUCTURE_NAME GL_FL,
+			 GL.STRUCTURE_
+			 
+			 NAME GL_FL,
        GL.CATEGORY_CONCAT_SEGS 物料分类代码,
        GL.DESCRIPTION 物料分类描述,
 			 
