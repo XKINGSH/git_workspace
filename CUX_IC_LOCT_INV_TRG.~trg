@@ -1,3 +1,5 @@
+--v1.0
+
 create or replace trigger CUX_IC_LOCT_INV_TRG
   before insert or update on "GMI"."IC_LOCT_INV"
   for each row

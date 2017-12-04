@@ -1,3 +1,4 @@
+--v2.2
 --v1.0
 
 create or replace trigger CUX_IC_LOCT_INV_TRG
